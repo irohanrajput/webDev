@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nesting and Indentation</title>
+</head>
+<!-- to make nested lists, create new list under the older one and so on-->
+<body>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+
+
+            <ul style = "list-style-type: circle;">
+                <li>B1</li>
+                <li>B2</li>
+                <ol>
+                    <li>B2aa</li>
+                    <li>B2ab</li>
+
+                    <ul style="list-style-type: decimal-leading-zero;">
+                        <li>B2b</li>
+                        <li>B2c</li>
+
+                    
+
+                    <ul style = "list-style-type:square;">
+                        <li>B3a</li>
+                        <li>B3b</li>
+                    </ul>
+                </ol>
+
+            </ul>
+        <li>C</li>
+    </ul>    
+</body>
+</html>
