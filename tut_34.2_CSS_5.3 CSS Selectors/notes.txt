@@ -1,0 +1,5 @@
+h1{
+    color:blue
+}
+
+this is called the element selector and it selects a particular element (here h1) and apply changes to it all the file.

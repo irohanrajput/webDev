@@ -1,0 +1,21 @@
+In class selector, we assign a class to a particular element and apply the changes accordingly to all those elements     
+
+.class_selector{
+    content
+}
+
+
+ID selector applys to a single element in a html file and is for unique ones   
+
+#main {
+    content
+} 
+
+
+atribute selector
+
+type[attribut(img,draggable,etc)]{
+    color:red
+} 
+
+it selects all the items of mentioned attribute and change their properties
