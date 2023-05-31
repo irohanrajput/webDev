@@ -1,0 +1,17 @@
+.class{
+    clear:left
+ } means it clears everything that is in the left of selected class, i.e. simply sends it to the next line if something exists in the left 
+
+
+
+ <!-- TODO
+1. Make both paragraph elements wrap around the image.
+2. Use Float to move the cat div to the left and the dog div to the right.
+3. Use clear to make the footer go below both the cat and dog div. -->
+
+
+
+we won't be needing these thing, flexbox etc are there for all these
+
+
+use float if u want to just to wrap text around image.. for complex task, use other tools
