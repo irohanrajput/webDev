@@ -1,0 +1,17 @@
+  TODO
+1. By changing only the display property of the CSS make all 3 squares line up horizontally like in goal1 image.
+2. Change only the display property to make all 3 squares line up vertically like in goal2 image. 
+
+
+1.Inline: continues in line only, can't change it's size
+display: inline
+
+
+2. block: can change it's size but doesn't goes in line 
+display: block
+
+
+
+3.block-inline: hybrid
+display: inline-block
+
