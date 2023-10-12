@@ -1,0 +1,4 @@
+function
+events e.g. onclick = ""
+variables, and using them is function to manupulate data like counter app
+document.querySelector('input').innerHTML = "change"

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>hello JS</title>
+    <script>
+        function hello() {
+
+            // if (document.querySelector('h1').innerHTML === "Hello !") {
+            //     document.querySelector('h1').innerHTML = "Goodbye!!";
+            // }
+            // else {
+            //     document.querySelector('h1').innerHTML = "Hello !";
+            // }
+
+            const  heading = document.querySelector('h1');
+            if (heading.innerHTML === "Hello !"){
+                heading.innerHTML = "Goodbye !";
+            }
+            else{
+                heading.innerHTML = "Hello !";
+            }
+
+            // above code  means, go through the page, find 'h1' elements and manupulate accordingly
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Hello !</h1>
+    <button onclick="hello()">Change Text</button>
+</body>
+
+</html>
