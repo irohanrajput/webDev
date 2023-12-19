@@ -5,6 +5,8 @@ let counter = 0;
         }
         function reset(){
             counter += 0;
+            document.querySelector('h2').innerHTML  = counter;
+
         }
 
         document.addEventListener('DOMContentLoaded', function(){
