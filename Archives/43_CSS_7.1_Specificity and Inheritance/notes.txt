@@ -1,5 +1,0 @@
-the code in lower line will be dominate during excution in the final result 
-
-watch out the priority order of css selectors.
-
-learn div properly
